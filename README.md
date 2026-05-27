@@ -6,7 +6,7 @@
 
 - Deploy Pi-hole in a home network environment
 - Configure custom DNS and DHCP settings
-- Reduce ads and telemetry across network devices
+- Reduce ads and across network devices
 - Learn Linux server administration and networking
 - Troubleshoot DNS and connectivity issues
 
