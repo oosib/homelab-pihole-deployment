@@ -13,11 +13,11 @@
 ## Technologies Used
 
 - Pi-hole
-- Ubuntu / Kubuntu Linux
+- Ubuntu
 - DNS
 - DHCP
 - SSH
-- Terminal/Linux CLI
+- Linux CLI
 - Home networking
 
 
