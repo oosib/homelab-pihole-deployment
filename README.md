@@ -54,20 +54,20 @@ The deployment was configured on a Linux-based system and integrated with the ho
 
 # 2. Realtek RTL8822CE Wi-Fi adapter issues
 # Solution:
-# - Verified driver:
-#   rtw88_8822ce
-# - Reloaded modules repeatedly
-# - Eventually discovered hardware/driver was not the root issue
+- Verified driver:
+-- rtw88_8822ce
+- Reloaded modules repeatedly
+- Eventually discovered hardware/driver was not the root issue
 
-# 3. No internet access during setup
+3. No internet access during setup
 # Solution:
-# - Connected laptop to phone hotspot/tethering
+- Connected laptop to phone hotspot/tethering
 
-# 4. Git clone hanging/timeouts
+4. Git clone hanging/timeouts
 # Solution:
-# - Retried repeatedly after restoring temporary internet access
+- Retried repeatedly after restoring temporary internet access
 
-# 5. "Unable to locate package" errors
+5. "Unable to locate package" errors
 # Solution:
 # - Ran:
 #   sudo apt update
