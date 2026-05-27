@@ -28,7 +28,8 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Home networking
 
 
-<img width="2000" height="2000" alt="pihole homelab graphic" src="https://github.com/user-attachments/assets/523f28e1-bfc2-436a-8323-873dede40b3c" />
+<img width="2000" height="2000" alt="pihole homelab graphic" src="https://github.com/user-attachments/assets/67f1fdeb-97c2-4a33-a8a5-3dd7f27732a2" />
+
 
 
 ## Skills Demonstrated
