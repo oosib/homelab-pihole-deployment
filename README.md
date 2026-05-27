@@ -51,8 +51,7 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Connected temporarily through phone tethering
 - Installed firmware/packages manually
 
-# 2. Realtek RTL8822CE Wi-Fi adapter issues
-Solution:
+### Realtek RTL8822CE Wi-Fi adapter issues
 - Verified driver:
 -- rtw88_8822ce
 - Reloaded modules repeatedly
