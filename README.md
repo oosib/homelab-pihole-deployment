@@ -46,14 +46,14 @@ The deployment was configured on a Linux-based system and integrated with the ho
 
 ## Challenges Encountered with solutions
 
-# 1. Kubuntu installed without Wi-Fi firmware/drivers
-# Solution:
-# - Reinstalled Kubuntu multiple times
-# - Connected temporarily through phone tethering
-# - Installed firmware/packages manually
+- 1. Kubuntu installed without Wi-Fi firmware/drivers
+Solution:
+- Reinstalled Kubuntu multiple times
+- Connected temporarily through phone tethering
+- Installed firmware/packages manually
 
 # 2. Realtek RTL8822CE Wi-Fi adapter issues
-# Solution:
+Solution:
 - Verified driver:
 -- rtw88_8822ce
 - Reloaded modules repeatedly
