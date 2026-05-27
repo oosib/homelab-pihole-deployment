@@ -2,6 +2,13 @@
 
 ## A self-hosted Pi-hole deployment running on a Linux-based homelab server used for network-wide DNS filtering, ad blocking, and LAN management.
 
+## Project Overview
+
+This project involved deploying and configuring a self-hosted Pi-hole DNS filtering server within a homelab environment. The server was used to provide network-wide ad blocking, DNS filtering, and traffic visibility for multiple connected devices across the local network.
+
+The deployment was configured on a Linux-based system and integrated with the home router to manage DNS requests for LAN-connected devices.
+
+
 ## Objectives
 
 - Deploy Pi-hole in a home network environment
