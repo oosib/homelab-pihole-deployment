@@ -29,3 +29,14 @@ The deployment was configured on a Linux-based system and integrated with the ho
 
 
 <img width="2000" height="2000" alt="pihole homelab graphic" src="https://github.com/user-attachments/assets/8329457f-e128-46e3-b943-1c519def8716" />
+
+## Skills Demonstrated
+
+- Linux Administration
+- DNS Configuration
+- Network Troubleshooting
+- SSH Remote Management
+- Homelab Infrastructure
+- Router Configuration
+- Service Deployment
+- Documentation
