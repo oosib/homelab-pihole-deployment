@@ -63,8 +63,8 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Retried repeatedly after restoring temporary internet access
 
 ### "Unable to locate package" errors
-# - Ran: sudo apt update
-# - Reinstalled/changed Linux installs multiple times
+- Ran: sudo apt update
+- Reinstalled/changed Linux installs multiple times
 
 ### Endless KDE Daemon password prompts
 - Attempted disabling KWallet
@@ -80,56 +80,45 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Identified: org.freedesktop.secrets
 - Attempted disabling GNOME Keyring services
 
-### 9. D-Bus / Secret Service conflicts
+### D-Bus / Secret Service conflicts
 - Masked/stopped multiple wallet/keyring services
 - Created dummy org.freedesktop.secrets override
 
-# 10. Incorrect KWallet password
-# Solution:
-# - Deleted old wallet files
-# - Recreated wallet
+### Incorrect KWallet password
+- Deleted old wallet files
+- Recreated wallet
 
-# 11. Incorrect Wi-Fi password entered repeatedly 😄
-# Solution:
-# - Finally entered correct Wi-Fi password
-# - Realized this was the primary root cause
+### Incorrect Wi-Fi password entered repeatedly 😄
+- Finally entered correct Wi-Fi password
+- Realized this was the primary root cause
 
-# 12. "Waiting for authentication" Wi-Fi loop
-# Solution:
-# - Deleted old Wi-Fi connection profiles
-# - Reconnected through nmcli and GUI repeatedly
+### "Waiting for authentication" Wi-Fi loop
+- Deleted old Wi-Fi connection profiles
+- Reconnected through nmcli and GUI repeatedly
 
-# 13. "No secret key" NetworkManager error
-# Solution:
-# - Connected directly through:
-#   nmcli dev wifi connect "SSID" password "PASSWORD"
+### "No secret key" NetworkManager error
+- Connected directly through: nmcli dev wifi connect "SSID" password "PASSWORD"
 
-# 14. Broken/incomplete Wi-Fi connection profiles
-# Solution:
-# - Removed broken .nmconnection files
-# - Rebuilt connection profiles from scratch
+### Broken/incomplete Wi-Fi connection profiles
+- Removed broken .nmconnection files
+- Rebuilt connection profiles from scratch
 
-# 15. Same issue reproduced on Fedora KDE
-# Solution:
-# - Installed Fedora KDE to test if Kubuntu was the problem
-# - Confirmed issue persisted across distros
+### Same issue reproduced on Fedora KDE
+- Installed Fedora KDE to test if Kubuntu was the problem
+- Confirmed issue persisted across distros
 
-# 16. Devices bypassing Pi-hole DNS
-# Solution:
-# - Checked DNS using:
-#   nslookup
-# - Found Comcast/Xfinity DNS:
-#   75.75.75.75
-# - Began reconfiguring DNS routing
+### Devices bypassing Pi-hole DNS
+- Checked DNS using: nslookup
+- Found Comcast/Xfinity DNS: 75.75.75.75
+- Began reconfiguring DNS routing
 
-# 17. Pi-hole dashboard not receiving queries
-# Solution:
+### Pi-hole dashboard not receiving queries
+
 # - Determined devices were not using Pi-hole as DNS yet
 
-# 18. Router DNS / DHCP confusion
-# Solution:
-# - Researched router-level DNS assignment
-# - Planned to point router DHCP DNS toward Pi-hole IP
+### Router DNS / DHCP confusion
+- Researched router-level DNS assignment
+- Planned to point router DHCP DNS toward Pi-hole IP
 
 ## Future Improvements
 
