@@ -53,7 +53,7 @@ The deployment was configured on a Linux-based system and integrated with the ho
 
 ### Realtek RTL8822CE Wi-Fi adapter issues
 - Verified driver:
--- rtw88_8822ce
+  rtw88_8822ce
 - Reloaded modules repeatedly
 - Eventually discovered hardware/driver was not the root issue
 
