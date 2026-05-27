@@ -46,7 +46,7 @@ The deployment was configured on a Linux-based system and integrated with the ho
 
 ## Challenges Encountered with solutions
 
-- 1. Kubuntu installed without Wi-Fi firmware/drivers
+1. Kubuntu installed without Wi-Fi firmware/drivers
 Solution:
 - Reinstalled Kubuntu multiple times
 - Connected temporarily through phone tethering
