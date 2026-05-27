@@ -88,10 +88,6 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Deleted old wallet files
 - Recreated wallet
 
-### Incorrect Wi-Fi password entered repeatedly 😄
-- Finally entered correct Wi-Fi password
-- Realized this was the primary root cause
-
 ### "Waiting for authentication" Wi-Fi loop
 - Deleted old Wi-Fi connection profiles
 - Reconnected through nmcli and GUI repeatedly
