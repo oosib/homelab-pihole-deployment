@@ -43,3 +43,14 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Router Configuration
 - Service Deployment
 - Documentation
+
+## Challenges Encountered
+
+
+## Future Improvements
+
+- Add VLAN segmentation
+- Deploy redundant DNS failover
+- Implement containerized deployment
+- Add monitoring dashboards
+- Configure automated backups
