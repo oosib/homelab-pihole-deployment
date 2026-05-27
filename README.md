@@ -52,47 +52,37 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Installed firmware/packages manually
 
 ### Realtek RTL8822CE Wi-Fi adapter issues
-- Verified driver:
-  rtw88_8822ce
+- Verified driver: rtw88_8822ce
 - Reloaded modules repeatedly
 - Eventually discovered hardware/driver was not the root issue
 
-3. No internet access during setup
-# Solution:
+### No internet access during setup
 - Connected laptop to phone hotspot/tethering
 
-4. Git clone hanging/timeouts
-# Solution:
+### Git clone hanging/timeouts
 - Retried repeatedly after restoring temporary internet access
 
-5. "Unable to locate package" errors
-# Solution:
-# - Ran:
-#   sudo apt update
+### "Unable to locate package" errors
+# - Ran: sudo apt update
 # - Reinstalled/changed Linux installs multiple times
 
-# 6. Endless KDE Daemon password prompts
-# Solution:
-# - Attempted disabling KWallet
-# - Attempted removing KWallet
-# - Attempted replacing secret-service handling
-# - Eventually realized prompts were caused by failed authentication attempts
+### Endless KDE Daemon password prompts
+- Attempted disabling KWallet
+- Attempted removing KWallet
+- Attempted replacing secret-service handling
+- Eventually realized prompts were caused by failed authentication attempts
 
-# 7. KWallet missing or improperly configured
-# Solution:
-# - Reinstalled wallet-related packages
-# - Attempted enabling wallet subsystem manually
+### KWallet missing or improperly configured
+- Reinstalled wallet-related packages
+- Attempted enabling wallet subsystem manually
 
-# 8. GNOME Keyring conflicting with KWallet
-# Solution:
-# - Identified:
-#   org.freedesktop.secrets
-# - Attempted disabling GNOME Keyring services
+### GNOME Keyring conflicting with KWallet
+- Identified: org.freedesktop.secrets
+- Attempted disabling GNOME Keyring services
 
-# 9. D-Bus / Secret Service conflicts
-# Solution:
-# - Masked/stopped multiple wallet/keyring services
-# - Created dummy org.freedesktop.secrets override
+### 9. D-Bus / Secret Service conflicts
+- Masked/stopped multiple wallet/keyring services
+- Created dummy org.freedesktop.secrets override
 
 # 10. Incorrect KWallet password
 # Solution:
