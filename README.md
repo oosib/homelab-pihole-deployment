@@ -109,8 +109,7 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Began reconfiguring DNS routing
 
 ### Pi-hole dashboard not receiving queries
-
-# - Determined devices were not using Pi-hole as DNS yet
+- Determined devices were not using Pi-hole as DNS yet
 
 ### Router DNS / DHCP confusion
 - Researched router-level DNS assignment
