@@ -20,7 +20,7 @@ The deployment was configured on a Linux-based system and integrated with the ho
 ## Technologies Used
 
 - Pi-hole
-- Ubuntu
+- Kubuntu
 - DNS
 - DHCP
 - SSH
