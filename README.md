@@ -1,6 +1,6 @@
-# homelab-pihole-deployment
+# Pi-hole Deployment Homelab
 
-# A self-hosted Pi-hole deployment running on a Linux-based homelab server used for network-wide DNS filtering, ad blocking, and LAN management.
+## A self-hosted Pi-hole deployment running on a Linux-based homelab server used for network-wide DNS filtering, ad blocking, and LAN management.
 
 ## Objectives
 
