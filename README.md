@@ -1,3 +1,5 @@
+<img width="2000" height="500" alt="pihole homelab banner" src="https://github.com/user-attachments/assets/1e8d036c-bd7f-4292-a72d-6e36283ddf42" />
+
 # Pi-hole Deployment Homelab
 
 ## A self-hosted Pi-hole deployment running on a Linux-based homelab server used for network-wide DNS filtering, ad blocking, and LAN management.
