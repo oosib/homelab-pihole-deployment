@@ -123,4 +123,18 @@ The deployment was configured on a Linux-based system and integrated with the ho
 - Deploy redundant DNS failover
 - Implement containerized deployment
 - Add monitoring dashboards
+
+
+
+
+
+
+
+
+<table>
+  <img width="785" height="945" alt="virutal agents reference model sprite sheet" src="https://github.com/user-attachments/assets/8817669c-81f2-4b76-b16f-3630e60fb947" />
+<tr>
+  <img width="785" height="945" alt="virutal agents reference model sprite sheet" src="https://github.com/user-attachments/assets/8817669c-81f2-4b76-b16f-3630e60fb947" />
+</tr>
+</table>
 - Configure automated backups
