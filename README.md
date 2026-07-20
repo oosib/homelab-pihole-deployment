@@ -133,25 +133,3 @@ The deployment was configured on a Linux-based system and integrated with the ho
 
 
 
-<td align="center">
-
-<img src="images/clients.png">
-
-**7**
-
-Clients
-
-</td>
-
-<td align="center">
-
-<img src="images/blocklists.png">
-
-**12**
-
-Blocklists
-
-</td>
-</tr>
-</table>
-
